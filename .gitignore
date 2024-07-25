@@ -1,0 +1,7 @@
+node_modules/
+app/mobile/node_modules/
+app/backend/node_modules/
+app/mobile/.expo/
+app/mobile/dist/
+app/backend/env
+

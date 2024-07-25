@@ -17,12 +17,14 @@ export default {
 		assetBundlePatterns: ["**/*"],
 		ios: {
 			supportsTablet: true,
+			bundleIdentifier: "com.tawaf",
 		},
 		android: {
 			adaptiveIcon: {
 				foregroundImage: "./assets/logo.png",
 				backgroundColor: "#009797",
 			},
+			package: "com.tawaf",
 		},
 		web: {
 			favicon: "./assets/logo.png",
